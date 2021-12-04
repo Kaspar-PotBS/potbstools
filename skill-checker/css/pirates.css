@@ -74,6 +74,31 @@ line-height: 35px;
     line-height: normal;
 			   }
 			   
+			   
+			   
+			   #URLBox
+              {
+               width: 530px; 
+               padding: 5px;
+               float:left;
+               height: 30px;
+               color: white;
+               background: url(../img/topBanner.png) no-repeat no-repeat;
+			   background-size: 100%;
+               font: bold 18px/28px Trebuchet MS;
+               text-indent: 5px;  
+line-height: 35px;	
+    padding-right: 25px;
+               }
+			   
+				input#URLField
+			   {
+				width: 453px;
+				font: inherit;
+				background: lightslategray;
+    line-height: normal;
+			   }
+			   
          .OneSkill
          {
              width: 300px;
@@ -182,7 +207,7 @@ img
 #Beschreibungen
 {
     position: absolute; 
-    top: 160px;
+    top: 220px;
     left: 320px;
     padding: 8px;
     padding-top: 8px;
