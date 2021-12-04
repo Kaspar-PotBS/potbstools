@@ -212,7 +212,8 @@ img
     left: 320px;
     padding: 8px;
     padding-top: 8px;
-    width: 300px; 
+    max-width: 537px; 
+	width: -webkit-fill-available;
     border: 1px dotted gray;
     z-index: 55;
     background-color: #2D2C2B;
@@ -228,7 +229,8 @@ img
 		 top: 0px;      
  		 display: inherit;	
  		 padding: 0 0 0 5px;
- 		 width:290px;
+ 		 max-width:537px;
+		 width: -webkit-fill-available;
 		}
 		
 			       .discription ul
