@@ -2,7 +2,7 @@
 
 
          // Beschreibung bei Hover einblenden, lost-focus ausblenden
-          $(".Beschreibung.00 img").click(function () {
+          $(".Beschreibung.00 img").hover(function () {
               $(".discription").hide("fast");
               $(".discription.00").show(200);
 
@@ -11,7 +11,7 @@
                 $(".discription.00").hide("fast");
             });
 
-            $(".Beschreibung.11 img").click(function () {
+            $(".Beschreibung.11 img").hover(function () {
 			  $(".discription").hide("fast");              
 			  $(".discription.11").show(200);
 
@@ -19,7 +19,7 @@
                 $(".discription.11").hide("fast");
             });
 
-            $(".Beschreibung.12 img").click(function () {
+            $(".Beschreibung.12 img").hover(function () {
 	            $(".discription").hide("fast");
                 $(".discription.12").show(200);
 
@@ -27,308 +27,308 @@
                 $(".discription.12").hide("fast");
             });
 
-            $(".Beschreibung.13 img").click(function () {
+            $(".Beschreibung.13 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.13").show(200);
             }, function () {
                 $(".discription.13").hide("fast");
             });
 
-            $(".Beschreibung.14 img").click(function () {
+            $(".Beschreibung.14 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.14").show(200);
             }, function () {
                 $(".discription.14").hide("fast");
             });
 
-            $(".Beschreibung.15 img").click(function () {
+            $(".Beschreibung.15 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.15").show(200);
             }, function () {
                 $(".discription.15").hide("fast");
             });
 
-            $(".Beschreibung.21 img").click(function () {
+            $(".Beschreibung.21 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.21").show(200);
             }, function () {
                 $(".discription.21").hide("fast");
             });
 
-            $(".Beschreibung.22 img").click(function () {
+            $(".Beschreibung.22 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.22").show(200);
             }, function () {
                 $(".discription.22").hide("fast");
             });
 
-            $(".Beschreibung.23 img").click(function () {
+            $(".Beschreibung.23 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.23").show(200);
             }, function () {
                 $(".discription.23").hide("fast");
             });
 
-            $(".Beschreibung.24 img").click(function () {
+            $(".Beschreibung.24 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.24").show(200);
             }, function () {
                 $(".discription.24").hide("fast");
             });
 
-            $(".Beschreibung.25 img").click(function () {
+            $(".Beschreibung.25 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.25").show(200);
             }, function () {
                 $(".discription.25").hide("fast");
             });
 
-            $(".Beschreibung.31 img").click(function () {
+            $(".Beschreibung.31 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.31").show(200);
             }, function () {
                 $(".discription.31").hide("fast");
             });
 
-            $(".Beschreibung.32 img").click(function () {
+            $(".Beschreibung.32 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.32").show(200);
             }, function () {
                 $(".discription.32").hide("fast");
             });
 
-            $(".Beschreibung.33 img").click(function () {
+            $(".Beschreibung.33 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.33").show(200);
             }, function () {
                 $(".discription.33").hide("fast");
             });
 
-            $(".Beschreibung.34 img").click(function () {
+            $(".Beschreibung.34 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.34").show(200);
             }, function () {
                 $(".discription.34").hide("fast");
             });
 
-            $(".Beschreibung.35 img").click(function () {
+            $(".Beschreibung.35 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.35").show(200);
             }, function () {
                 $(".discription.35").hide("fast");
             });
 
-            $(".Beschreibung.41 img").click(function () {
+            $(".Beschreibung.41 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.41").show(200);
             }, function () {
                 $(".discription.41").hide("fast");
             });
 
-            $(".Beschreibung.42 img").click(function () {
+            $(".Beschreibung.42 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.42").show(200);
             }, function () {
                 $(".discription.42").hide("fast");
             });
 
-            $(".Beschreibung.43 img").click(function () {
+            $(".Beschreibung.43 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.43").show(200);
             }, function () {
                 $(".discription.43").hide("fast");
             });
 
-            $(".Beschreibung.44 img").click(function () {
+            $(".Beschreibung.44 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.44").show(200);
             }, function () {
                 $(".discription.44").hide("fast");
             });
 
-            $(".Beschreibung.45 img").click(function () {
+            $(".Beschreibung.45 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.45").show(200);
             }, function () {
                 $(".discription.45").hide("fast");
             });
 
-            $(".Beschreibung.51 img").click(function () {
+            $(".Beschreibung.51 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.51").show(200);
             }, function () {
                 $(".discription.51").hide("fast");
             });
 
-            $(".Beschreibung.52 img").click(function () {
+            $(".Beschreibung.52 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.52").show(200);
             }, function () {
                 $(".discription.52").hide("fast");
             });
 
-            $(".Beschreibung.53 img").click(function () {
+            $(".Beschreibung.53 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.53").show(200);
             }, function () {
                 $(".discription.53").hide("fast");
             });
 
-            $(".Beschreibung.54 img").click(function () {
+            $(".Beschreibung.54 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.54").show(200);
             }, function () {
                 $(".discription.54").hide("fast");
             });
 
-            $(".Beschreibung.55 img").click(function () {
+            $(".Beschreibung.55 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.55").show(200);
             }, function () {
                 $(".discription.55").hide("fast");
             });
 
-            $(".Beschreibung.61 img").click(function () {
+            $(".Beschreibung.61 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.61").show(200);
             }, function () {
                 $(".discription.61").hide("fast");
             });
 
-            $(".Beschreibung.62 img").click(function () {
+            $(".Beschreibung.62 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.62").show(200);
             }, function () {
                 $(".discription.62").hide("fast");
             });
 
-            $(".Beschreibung.63 img").click(function () {
+            $(".Beschreibung.63 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.63").show(200);
             }, function () {
                 $(".discription.63").hide("fast");
             });
 
-            $(".Beschreibung.64 img").click(function () {
+            $(".Beschreibung.64 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.64").show(200);
             }, function () {
                 $(".discription.64").hide("fast");
             });
 
-            $(".Beschreibung.65 img").click(function () {
+            $(".Beschreibung.65 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.65").show(200);
             }, function () {
                 $(".discription.65").hide("fast");
             });
 
-            $(".Beschreibung.71 img").click(function () {
+            $(".Beschreibung.71 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.71").show(200);
             }, function () {
                 $(".discription.71").hide("fast");
             });
 
-            $(".Beschreibung.72 img").click(function () {
+            $(".Beschreibung.72 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.72").show(200);
             }, function () {
                 $(".discription.72").hide("fast");
             });
 
-            $(".Beschreibung.73 img").click(function () {
+            $(".Beschreibung.73 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.73").show(200);
             }, function () {
                 $(".discription.73").hide("fast");
             });
 
-            $(".Beschreibung.74 img").click(function () {
+            $(".Beschreibung.74 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.74").show(200);
             }, function () {
                 $(".discription.74").hide("fast");
             });
 
-            $(".Beschreibung.75 img").click(function () {
+            $(".Beschreibung.75 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.75").show(200);
             }, function () {
                 $(".discription.75").hide("fast");
             });
 
-            $(".Beschreibung.81 img").click(function () {
+            $(".Beschreibung.81 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.81").show(200);
             }, function () {
                 $(".discription.81").hide("fast");
             });
 
-            $(".Beschreibung.82 img").click(function () {
+            $(".Beschreibung.82 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.82").show(200);
             }, function () {
                 $(".discription.82").hide("fast");
             });
 
-            $(".Beschreibung.83 img").click(function () {
+            $(".Beschreibung.83 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.83").show(200);
             }, function () {
                 $(".discription.83").hide("fast");
             });
 
-            $(".Beschreibung.84 img").click(function () {
+            $(".Beschreibung.84 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.84").show(200);
             }, function () {
                 $(".discription.84").hide("fast");
             });
 
-            $(".Beschreibung.85 img").click(function () {
+            $(".Beschreibung.85 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.85").show(200);
             }, function () {
                 $(".discription.85").hide("fast");
             });
 
-            $(".Beschreibung.90 img").click(function () {
+            $(".Beschreibung.90 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.90").show(200);
             }, function () {
                 $(".discription.90").hide("fast");
             });
 
-            $(".Beschreibung.91 img").click(function () {
+            $(".Beschreibung.91 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.91").show(200);
             }, function () {
                 $(".discription.91").hide("fast");
             });
 
-            $(".Beschreibung.92 img").click(function () {
+            $(".Beschreibung.92 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.92").show(200);
             }, function () {
                 $(".discription.92").hide("fast");
             });
 
-            $(".Beschreibung.93 img").click(function () {
+            $(".Beschreibung.93 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.93").show(200);
             }, function () {
                 $(".discription.93").hide("fast");
             });
 
-            $(".Beschreibung.94 img").click(function () {
+            $(".Beschreibung.94 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.94").show(200);
             }, function () {
                 $(".discription.94").hide("fast");
             });
 
-            $(".Beschreibung.95 img").click(function () {
+            $(".Beschreibung.95 img").hover(function () {
 	            $(".discription").hide("fast");            
                 $(".discription.95").show(200);
             }, function () {
