@@ -11,11 +11,14 @@
 <link rel="stylesheet" type="text/css" href="./css/main.css" media="all">
 <link rel="stylesheet" type="text/css" href="./css/pirates.css" media="all">
 <link rel="stylesheet" type="text/css" href="./css/jquery.css" media="all">
+<link rel="stylesheet" type="text/css" href="./css/copytoclipboard.css" media="all">
+
 
 <script src="./js/javascript_93077bb238.js" type="text/javascript"></script>
 
 <title>gumworm: PotBS, Skill Checker: Cutthroat - Pirates of the Burning Sea </title>	 <script src="./js/pirates_jquery.js" type="text/javascript"></script>
     	 <script src="./js/pirates_custom.js" type="text/javascript"></script>
+		 <script src="./js/copytoclipboard.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -908,7 +911,12 @@
 <div id="c257" class="csc-frame csc-frame-frame1"><div class="csc-header csc-header-n2"><h1>Pirates of the Burning Sea (PotBS) - Skill Checker</h1></div><p class="bodytext"><b>Pirates of the Burning Sea (PotBS)</b> is an online pirate game. You can use the <b>Skill-Checker</b> to easily check and share your skill-settings. As with any skill-planing-tool you might want to try different settings to find your best set-up. Just send the skill-code to your buddies and let them have a look at your carrer settings.<br><br>�&nbsp;gumworm.com, all rights reserved | <a href="noin/imp.html" target="_blank">Imprint</a></p></div></div>
 				<div id="contentRight"><div id="c242" class="csc-default">    <div id="Results">
         <div id="Points">Points used:<b> <span id="UsedPoints">0</span> of 25 </b></div>
-        <div id="SendNumber">Skill-Code: CT-<input name="foo" type="text" maxlength="8" value="00000000" id="SkillCode"></div>
+        <div id="SendNumber">Skill-Code: CT-<input name="foo" type="text" maxlength="8" value="00000000" id="SkillCode">
+		<div class="tooltip"><button class="copybtn" onclick="CopyCodeToClipboard()" onmouseout="outFunc()">
+  <div class="tooltiptext" id="copybtn-tooltip">Copy to clipboard</div>
+  Copy</button>
+</div>
+		</div>
     </div>
 </div><div id="c244" class="csc-default"><div id="charNavi">
  <h1>Choose your career:</h1><br>
