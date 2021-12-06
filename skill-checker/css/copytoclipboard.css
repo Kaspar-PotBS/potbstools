@@ -40,8 +40,7 @@ button.copybtn {
     position: absolute;
     display: flex;
     transform: translateY(-76%);
-	/* background-image: linear-gradient( 
--180deg, #37AEE2 0%, #1E96C8 100%); */
+	background-color: brown;
 background: url(../img/header.png);
     border-radius: 0.2rem;
     box-sizing: border-box;
