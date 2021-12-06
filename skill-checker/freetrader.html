@@ -171,7 +171,7 @@
      <!-- Skill 5:-->
     <div class="OneSkill">
         <div class="skillhead">
-            Ship Mastery - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-5" value="0">
+            Ship Mastery (RECOMMENDED) - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-5" value="0">
         </div>
 
         <div id="tab5">
@@ -239,7 +239,7 @@
            <!-- Skill 7:-->
     <div class="OneSkill">
         <div class="skillhead">
-            Trade - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-7" value="0">
+            Trade (RECOMMENDED) - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-7" value="0">
         </div>
 
         <div id="tab7">
@@ -336,7 +336,8 @@
    <div id="Beschreibungen">
                <div class="discription 11" style="display: none;">
                     <h1>Underdog</h1>
-                    Description: Improves a wide range of ship parameters. Only works when your current total armor for all facings is below 82% of the max (the equivalent of 50% damage on one broadside).<br>
+                    Description:<br>
+					Improves a wide range of ship parameters. Can only be used when your current total armor for all facings is below 82% of the max (the equivalent of 50% damage on one broadside).<br>
                     Requirements:
                     <ul><li>average armour on all facings below 82% of max integrity</li></ul>
                     Reset Timer: 8 minutes<br>
@@ -351,11 +352,13 @@
 
     <div class="discription 12" style="display: none;">
                     <h1>Dump Guns</h1>
-                    Description: Increases speed at the cost of guns. Also prevents you from using any single or combined gun repair for 5 minutes.<br>
+                    Description:<br>
+					Dump guns overboard to increase speed for 30s. Also prevents you from using any single or combined gun repair for 5 minutes.<br>
                     Requirements:
                     <ul><li>Your ship's guns must be at least 20%</li></ul>
+					<ul><li>You must be level 3</li></ul>
                     Reset Timer: 5 minutes<br>
-                    Duration: 30 seconds<br>
+                    Duration: 5 minutes<br>
                     Morale Cost: 20<br>
                     Self Effects:
                     <ul><li>Maximum Ship Speed, Battle: +15%</li>
@@ -364,22 +367,26 @@
 
     <div class="discription 13" style="display: none;">
                     <h1>Desperation Fire</h1>
-                    Description: Attack. Increased damage shot that also damages your own armor.<br>
+                    Description:<br>
+					Attack. Increased damage shot that also damages your own armor.<br>
                     Reset Timer: 1 minute<br>
                     Target: Enemy<br>
                     Morale Cost: 20<br>
-                    Self Effects:
                     <ul><li>Damage Port Armor: 5%</li>
                     <li>Damage Starboard Armor: 5%</li>
                     <li>Damage Bow Armor: 5%</li>
-                    <li>Damage Stern Armor: 5%</li>
-                    <li>Damage: +45%</li></ul></div>
+                    <li>Damage Stern Armor: 5%</li></ul>
+					Self Effects:
+                    <ul><li>Damage: +45%</li></ul></div>
     
     <div class="discription 14" style="display: none;">
                     <h1>Rum Ration</h1>
-                    Description: Increases several stats. Consumes 5 units of Keg of Rum, Rough.<br>
+                    Description:<br>
+					Buff: Passing out an additional ration of rum to your crew will make them work harder but maintaining this positive effect may become expensive.
+					Consumes 5 units of Keg of Rum, Rough.<br>
                     Requirements:
                     <ul><li>5 units of Keg of Rum, Rough</li></ul>
+					<ul><li>You must be level 7</li></ul>
                     Reset Timer: 5 minutes<br>
                     Duration: 5 minutes<br>
                     Morale Cost: 30<br>
@@ -391,8 +398,11 @@
     
     <div class="discription 15" style="display: none;">
                     <h1>Hasty Fire</h1>
-                    Description: Increases your reload rate at the expense of savety, leaving your crew more vulnerable to enemy attacks.<br>
-                    Reset Timer: 5 minutes<br>
+                    Description:<br>
+					Buff: Increases your reload rate at the expense of safety, leaving your crew more vulnerable to enemy attacks.<br>
+                    Requirements:
+					<ul><li>You must be level 9</li></ul>
+					Reset Timer: 5 minutes<br>
                     Duration: 2 minutes<br>
                     Morale Cost: 20<br>
                     Self Effects:
@@ -401,9 +411,8 @@
 
     <div class="discription 21" style="display: none;">
                     <h1>Disorienting Shot</h1>
-                    Description:Attack Debuff (Primary). Reduces the target's turn rate and acceleration. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -35% turn rate / -20% Acceleration).<br>
-                    Requirements:
-                    <ul><li>Round Shot</li></ul>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces the target's turn rate and acceleration. <br> The reduction gets stronger with each additional hit in the broadside (up to a maximum of -35% turn rate / -20% Acceleration).<br>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 1 minute <br>
@@ -417,9 +426,10 @@
 
     <div class="discription 22" style="display: none;">
                     <h1>Cut Shroud</h1>
-                    Description:Attack Debuff (Primary). Reduces the target's battle speed. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -24% battle speed).<br>
+                    Description:<br>
+					Attack Debuff (Secondary). Reduces the target's battle speed. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -24% battle speed).<br>
                     Requirements:
-                    <ul><li>Dismantling Shot</li></ul>
+                    <ul><li>You must be level 3</li></ul>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 1 minute <br>
@@ -432,7 +442,8 @@
 
     <div class="discription 23" style="display: none;">
                     <h1>Shred Sails</h1>
-                    Description:Attack. A moderate-damage broadside that target's sails.<br>
+                    Description:<br>
+					Attack. A moderate-damage broadside that target's sails.<br>
                     Requirements:
                     <ul><li>Dismantling Shot</li></ul>
                     Reset Timer: 3 minutes<br>
@@ -443,19 +454,22 @@
     
     <div class="discription 24" style="display: none;">
                     <h1>Shred Armor</h1>
-                    Description:Attack. Ignores target DR.<br>
+                    Description:<br>
+					Attack. Ignores 90% targes damage reduction.<br>
                     Requirements:
-                    <ul><li>Round Shot</li></ul>
+                    <ul><li>You must be level 7</li></ul>
                     Reset Timer: 3 minutes<br>
                     Target: Enemy<br>
                     Morale Cost: 30<br>
                     Self Effects:
-                    <ul><li>Damage: +20%</li>
-                    <li>Ignores Armor Damage Reduction, All: -90%</li></ul></div>
+                    <ul><li>Damage: +20%</li></ul>
+					Target Modifiers:
+                    <ul><li>Armor Damage Reduction, All: -90%</li></ul></div>
     
     <div class="discription 25" style="display: none;">
                     <h1>Disrupt Formation</h1>
-                    Description:Attack Debuff (Primary). Reduces the accuracy of the target. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -6 accuracy and target tracking).<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces the accuracy and target tracking of the target. <br>[The reduction gets stronger with each additional hit in the broadside (up to a maximum of -6 accuracy and target tracking).]<br>
                     Reset Timer: 3 minutes<br>
                     Target: Enemy<br>
                     Duration: 1 minute debuff. Self-buff just for one broadside <br>
@@ -473,16 +487,18 @@
 
     <div class="discription 31" style="display: none;">
                     <h1>Repel Grapples</h1>
-                    Description: Reduces your vulnerability to grappling attacks.<br>
+                    Description:<br>
+					Buff: Reduces your vulnerability to grappling attacks.<br>
                     Reset Timer: 3 minutes<br>
-                    Duration: 60s<br>
+                    Duration: 1 minute<br>
                     Morale Cost: 20<br>
                     Self Effects:
                     <ul><li>Grappling Defense: +25</li></ul></div>
 
     <div class="discription 32" style="display: none;">
                     <h1>Defense</h1>
-                    Description: Toggle. Increases defense, turn rate and crew recovery rate.<br>
+                    Description:<br>
+					Toggle. Increases defense, turn rate and crew recovery rate.<br>
                     Reset Timer: 3 seconds<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -494,7 +510,8 @@
 
     <div class="discription 33" style="display: none;">
                     <h1>Deter Pursuit</h1>
-                    Description: Debuff (Primary). Reduces the speed of the target enemy.<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces the speed of the target enemy. You cannot stack two speed debuffs on a target. Requires dismantling shot<br>
                     Requirements:
                     <ul><li>Dismantling Shot</li></ul>
                     Reset Timer: 5 minutes<br>
@@ -506,18 +523,21 @@
     
     <div class="discription 34" style="display: none;">
                     <h1>Evasion</h1>
-                    Description: Greatly increases your defense for a short time.<br>
+                    Description:<br>
+					Buff: Greatly increases your defense for a short time.<br>
                     Reset Timer: 3 minutes<br>
                     Duration: 20 seconds<br>
                     Morale Cost: 20<br>
                     Self Effects:
-                    <ul><li>Defense, All: +25</li></ul></div>
+                    <ul><li>Defense, All: +25</li>
+					<li>Accuracy, All: -3</ul></div>
     
     <div class="discription 35" style="display: none;">
                     <h1>Determination</h1>
-                    Description: Improves your ship's ability to withstand damage, as well as crew and morale recovery.<br>
+                    Description:<br>
+					Buff: Improves your ship's ability to withstand damage, as well as crew and morale recovery(2m).<br>
                     Reset Timer: 8 minutes<br>
-                    Duration: 2 minutes<br>
+                    Duration: Instant<br>
                     Morale Cost: 40<br>
                     Self Effects:
                     <ul><li>Damage Resistance: +15%</li>
@@ -526,7 +546,8 @@
 
     <div class="discription 41" style="display: none;">
                     <h1>Provision Allies: Defense</h1>
-                    Description: Improves the performance of your defense and your group members. You gain both the self, and the target effects. Overrides Provision Allies: Boarding.<br>
+                    Description:<br>
+					Group Buff: Improves the performance of your defense and your group members. Overrides Provision Allies: Boarding. <br>You gain both the self, and the target effects.<br>
                     Reset Timer: 8 minutes<br>
                     Target: Group<br>
                     Duration: 4 minutes<br>
@@ -541,7 +562,8 @@
 
     <div class="discription 42" style="display: none;">
                     <h1>Provision Allies: Maneuver</h1>
-                    Description: Improves the performance of your turn rate/ accleration and your group members.You gain both the self, and the target effects. Overrides Provision Allies: Offense.<br>
+                    Description:<br>
+					Group Buff: Improves the performance of your turn rate/ accleration and your group members.You gain both the self, and the target effects. Overrides Provision Allies: Offense.<br>
                     Reset Timer: 8 minutes<br>
                     Target: Group<br>
                     Duration: 4 minutes<br>
@@ -556,24 +578,26 @@
 
     <div class="discription 43" style="display: none;">
                     <h1>Provision Allies: Boarding</h1>
-                    Description: Improves the performance of your crew and your group members. You gain both the self, and the target effects. Overrides Provision Allies: Defense.<br>
+                    Description:<br>
+					Improves the performance of your crew and your group members. You gain both the self, and the target effects. Overrides Provision Allies: Defense.<br>
                     Reset Timer: 8 minutes<br>
                     Target: Group<br>
                     Duration: 4 minutes<br>
                     Morale Cost: 25<br>
                     Range: 500y<br>
                     Self Effects:
-                    <ul><li>Grappling Defense: +5</li>
+                    <ul><li>Grappling Defense: +10</li>
                     <li>Grappling Offense: +5</li>
                     <li>Crew Damage Resistance: +10%</li></ul>
                     Target Effects:
-                    <ul><li>Grappling Defense: +5</li>
+                    <ul><li>Grappling Defense: +10</li>
                     <li>Grappling Offense: +5</li>
                     <li>Crew Damage Resistance: +10%</li></ul></div>
     
     <div class="discription 44" style="display: none;">
                     <h1>Provision Allies: Offense</h1>
-                    Description: Improves the performance of your offensive and your group members. You gain both the self, and the target effects. Overrides Provision Allies: Maneuver.<br>
+                    Description:<br>
+					Group Buff: Improves the performance of your offensive and your group members. You gain both the self, and the target effects. Overrides Provision Allies: Maneuver.<br>
                     Reset Timer: 8 minutes<br>
                     Target: Group<br>
                     Duration: 4 minutes<br>
@@ -590,7 +614,8 @@
     
     <div class="discription 45" style="display: none;">
                     <h1>Extra Rations</h1>
-                    Description: Increases your reload rate, maximum morale and morale recovery and your group members. You gain both the self, and the target effects.<br>
+                    Description:<br>
+					Group Buff: Increases your reload rate, maximum morale and morale recovery of nearby group mates. You gain both the self, and the target effects.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Group<br>
                     Duration: 2 minutes<br>
@@ -599,22 +624,23 @@
                     Self Effects:
                     <ul><li>Reload Rate: +10%</li>
                     <li>Maximum Morale: +10</li>
-                    <li>Morale Recovery Rate: +15%</li></ul>
+                    <li>Morale Recovery Rate: +20%</li></ul>
                     Target Effects:
                     <ul><li>Reload Rate: +10%</li>
                     <li>Maximum Morale: +10</li>
-                    <li>Morale Recovery Rate: +15%</li></ul></div>
+                    <li>Morale Recovery Rate: +20%</li></ul></div>
 
     <div class="discription 51" style="display: none;">
                     <h1>Debilitating Broadside</h1>
-                    Description:Attack Debuff (Primary). Reduces the target ship's reload rate, turn rate and acceleration. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -15%).<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces the target ship's reload rate, turn rate and acceleration. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -15%).<br>
                     Requirements:
                     <ul><li>You must be facing port or starboard side of the target</li>
                     <li>Round Shot</li></ul>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 45 seconds <br>
-                    Morale Cost: 30<br>
+                    Morale Cost: 40<br>
                     <ul><li>First Hit Bonus: 5</li>
                     <li>Per-hit Bonus: 1</li>
                     <li>Maximum Hits: 10</li></ul>
@@ -625,7 +651,8 @@
 
     <div class="discription 52" style="display: none;">
                     <h1>Plug Leaks</h1>
-                    Description: Gradually repairs armor and structure damage while giving an offensive and defensive buff.<br>
+                    Description:<br>
+					Gradually repairs armor and structure damage while giving an offensive and defensive buff.<br>
                     Requirements:
                     <ul><li>Damaged Armor</li></ul>
                     Reset Timer: 8 minutes<br>
@@ -637,17 +664,17 @@
                     <li>Repair Bow Armor: 10%</li>
                     <li>Repair Stern Armor: 10%</li>
                     <li>Repair Hull: 10%</li>
-                    <li>Damage: 5%</li>
-                    <li>Reload Rate: 5%</li>
+                    <li>Damage: +5%</li>
+                    <li>Reload Rate: +5%</li>
                     <li>Accuracy, All: +2</li>
-                    <li>Armor Damage Resistance: +5%</li>
-                    <li>Structure Damage Resistance: +5%</li>
-                    <li>Armor Damage Reduction, All: +2</li></ul></div>
+                    <li>Armor Damage Resistance: +15%</li>
+                    <li>Structure Damage Resistance: +5%</li></ul></div>
 
     <div class="discription 53" style="display: none;">
                     <h1>Overloaded Shot</h1>
-                    Description: Attack. Increased damage shot that reduces your accuracy for a short time afterwards.<br>
-                    Reset Timer: 5 minutes<br>
+                    Description:<br>
+					Attack. Increased damage shot that reduces your accuracy for a short time afterwards.<br>
+                    Reset Timer: 3 minutes<br>
                     Target: Enemy<br>
                     Duration: 30 seconds<br>
                     Morale Cost: 30<br>
@@ -658,7 +685,8 @@
     
     <div class="discription 54" style="display: none;">
                     <h1>Rebuild Rig</h1>
-                    Description: Gradually repairs sails while giving a maneverability and mast defense bonus.<br>
+                    Description:<br>
+					Gradually repairs sails while giving a maneverability and mast defense bonus.<br>
                     Requirements:
                     <ul><li>Damaged Sails</li></ul>
                     Reset Timer: 8 minutes<br>
@@ -670,13 +698,13 @@
                     <li>Repair Mainmast: 15%</li>
                     <li>Repair Mizzenmast: 15%</li>
                     <li>Turn Rate, Battle: +10%</li>
-                    <li>Ship Acceleration: +10%</li>
-                    <li>Mast Damage Resistance: +10%</li>
-                    <li>Mast Damage Reduction, All: +3</li></ul></div>
+                    <li>Ship Acceleration: +15%</li>
+                    <li>Mast Damage Resistance: +15%</li></ul></div>
     
     <div class="discription 55" style="display: none;">
                     <h1>High Grade Armament</h1>
-                    Description: Passive skill. Increases the damage, max cannon range and accuracy of your cannons.<br>
+                    Description:<br>
+					Passive skill. Increases the damage, accuracy and range of your cannons.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Damage: +5%</li>
@@ -685,7 +713,8 @@
 
     <div class="discription 61" style="display: none;">
                     <h1>Ranging Shot</h1>
-                    Description:Attack. Increases your accuracy and range for a short time. The improvement gets stronger with each additional hit in the broadside (up to a maximum of +15%).<br>
+                    Description:<br>
+					Attack. Increases your accuracy and range for a short time. The improvement gets stronger with each additional hit from a single broadside (up to a maximum of +15%).<br>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 30 seconds <br>
@@ -699,7 +728,8 @@
 
     <div class="discription 62" style="display: none;">
                     <h1>Smuggled Cargo</h1>
-                    Description: Passive skill. Reduces the amount of cargo lost when you surrender, also lowers your Open Sea visibility and buffs your Open Sea speed.<br>
+                    Description:<br>
+					Passive skill. Reduces the amount of cargo lost when you surrender by half. The target of your surrender is not told of the quantitty decrease. Also lowers your Open Sea visibility and buffs your Open Sea speed.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Stealth, Open Sea: +15%</li>
@@ -710,7 +740,8 @@
 
     <div class="discription 63" style="display: none;">
                     <h1>Give the Slip</h1>
-                    Description: Decreases Open Sea speed of nearby enemies and increases your Open Sea turn rate and speed, but also prevents you from initiating combat for the duration of the effect.<br>
+                    Description:<br>
+					Decreases Open Sea speed of nearby enemies for 30s and increases your Open Sea turn rate and speed, but also prevents you from initiating combat for the 15s.<br>
                     Requirements:
                     <ul><li>On the Open Sea</li></ul>
                     Reset Timer: 30 minutes<br>
@@ -726,7 +757,8 @@
     
     <div class="discription 64" style="display: none;">
                     <h1>Skilled Negotiator</h1>
-                    Description: An upgraded Claim Price. Provides a high chance to get multiple commendations from a single derelict.<br>
+                    Description:<br>
+					An upgraded Claim Price. Provides a high chance to get multiple commendations from a single derelict.<br>
                     Requirements:
                     <ul><li>Derelict</li></ul>
                     Reset Timer: 30 seconds<br>
@@ -735,19 +767,22 @@
     
     <div class="discription 65" style="display: none;">
                     <h1>Misdirection</h1>
-                    Description:  Temporarily makes you immune to attacks on the Open Sea, also buffs your Open Sea speed.<br>
+                    Description:<br>
+					Open Sea skill. Temporarily increases your Open Sea sailing speed and reduces the attack range of nearby enemies by 75%.<br>
                      Requirements:
                     <ul><li>On the Open Sea</li></ul>
-                    Reset Timer: 30 minutes<br>
+                    Reset Timer: 10 minutes<br>
                     Target: Enemy<br>
                     Duration: 15 seconds<br>
-                    Morale Cost: 20<br>
                     Self Effects:
-                    <ul><li>Maximum Ship Speed, Open Sea: +15%</li></ul></div>
+                    <ul><li>Maximum Ship Speed, Open Sea: +15%</li></ul>
+					Target Effects:
+					<ul><li>Max Attack Range, Open Sea: -75%</li></ul></div>
 
     <div class="discription 71" style="display: none;">
                     <h1>Tax Evasion</h1>
-                    Description: Passive Skill. Reduces the taxes you pay on production in enemy ports. Also buffs your armor<br>
+                    Description:<br>
+					Passive Skill. Reduces the taxes you pay on production in enemy ports. Also buffs your armor<br>
                     Requirements:
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
@@ -756,7 +791,8 @@
 
     <div class="discription 72" style="display: none;">
                     <h1>Inspiration</h1>
-                    Description: Improves the acceleration and resistance of your group. You gain both the self, and the target effects.<br>
+                    Description:<br>
+					Group Buff: Improves the acceleration and resistance of your group. This has twice as much benefit for you as it does for yuor group.<br>
                     Reset Timer: 8 minutes<br>
                     Target: Group<br>
                     Duration: 4 minutes<br>
@@ -773,7 +809,8 @@
 
     <div class="discription 73" style="display: none;">
                     <h1>Optimal Rigging</h1>
-                    Description: Passive skill. Increases maximum ship speed.<br>
+                    Description:<br>
+					Passive skill. Increases maximum ship speed.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Maximum Ship Speed, Battle: +4%</li>
@@ -782,7 +819,8 @@
     
     <div class="discription 74" style="display: none;">
                     <h1>Before the Wind</h1>
-                    Description: Increases your battle speed, extra improvement while sailing downwind.<br>
+                    Description:<br>
+					Toggle: Increases your battle speed, extra improvement while sailing downwind.<br>
                     Reset Timer: 3 seconds<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -794,7 +832,8 @@
     
     <div class="discription 75" style="display: none;">
                     <h1>Sailhandling Drills</h1>
-                    Description: Passive skill. Increases your maneuverability, your downwind speed and defense.<br>
+                    Description:<br>
+					Passive skill. Increases your maneuverability, your downwind speed and defense.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Turn Rate, Battle: +7.5%</li>
@@ -812,19 +851,23 @@
 
     <div class="discription 82" style="display: none;">
                     <h1>Battle Preparations: Maneuver</h1>
-                    Description: Increases your ship's maneuverability. Triggers a two minutes cooldown on other battle preparations.<br>
+                    Description:<br>
+					Buff: Increases your ship's maneuverability. Triggers a two minutes cooldown on other battle preparations.<br>
                     Reset Timer: 8 minutes<br>
                     Duration: 4 minutes<br>
                     Morale Cost: 30<br>
+					Cooldown category: Battle Preparations<br>
                     Self Effects:
                     <ul><li>Turn Rate, Battle: +20%</li></ul></div>
 
     <div class="discription 83" style="display: none;">
                     <h1>Battle Preparations: Defense</h1>
-                    Description: Increases your defense. Triggers a two minutes cooldown on other battle preparations.<br>
+                    Description:<br>
+					Buff: Increases your defense. Triggers a two minutes cooldown on other battle preparations.<br>
                     Reset Timer: 8 minutes<br>
                     Duration: 4 minutes<br>
                     Morale Cost: 30<br>
+					Cooldown category: Battle Preparations<br>
                     Self Effects:
                     <ul><li>Defense, All: +4</li>
                     <li>Armor Damage Resistance: +4%</li>
@@ -832,10 +875,12 @@
     
     <div class="discription 84" style="display: none;">
                     <h1>Battle Preparations: Offense</h1>
-                    Description: Increases your offense. Triggers a two minutes cooldown on other battle preparations.<br>
+                    Description:<br>
+					Buff: Increases your offense. Triggers a two minutes cooldown on other battle preparations.<br>
                     Reset Timer: 8 minutes<br>
                     Duration: 4 minutes<br>
                     Morale Cost: 30<br>
+					Cooldown category: Battle Preparations<br>
                     Self Effects:
                     <ul><li>Accuracy, All: +4</li>
                     <li>Reload Rate: +5%</li>
@@ -843,7 +888,8 @@
     
     <div class="discription 85" style="display: none;">
                     <h1>Distraction</h1>
-                    Description:Debuff (Primary). Reduces the damage, range and maximum morale of all enemies within a 300 yards radius.<br>
+                    Description:<br>
+					Debuff (Primary). Reduces the damage, range and maximum morale of all enemies within a 300 yards radius.<br>
                     Reset Timer: 3 minutes<br>
                     Target: All enemies<br>
                     Duration: 3 minutes<br>
@@ -856,18 +902,23 @@
 
     <div class="discription 90" style="display: none;">
                     <h1>Career: Freetrader</h1>
-                    Description: As a member of the Freetrader career, your ships are constructed to your order at private shipyards, and are designed for quick reload and resilience.<br>
+                    Description:<br>
+					As a member of the Freetrader career, your ships are constructed to your order at private shipyards, and are designed for quick reload and resilience.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Reload Rate: +6%</li>
                     <li>Running Speed, All +3%</li>
-                    <li>Damage Resistance: +3%</li></ul></div>
+                    <li>Damage Resistance: +3%</li>
+					<li>Ship Defeat XP(Missions): -50%</li></ul></div>
 
     <div class="discription 91" style="display: none;">
                     <h1>Expert Repairs</h1>
-                    Description: Nail a few planks up and hoist some canvas as improved sails, and you can hold a damaged ship together.<br>
+                    Description:<br>
+					Nail a few planks up and hoist some canvas as improved sails, and you can hold a damaged ship together.<br>
                     Requirements:
-                    <ul><li>Damaged Armor or Sails</li></ul>
+                    <ul><li>Damaged Armor or Sails</li>
+					<li>You must not have the effect Unable to Repair</li>
+					<li>Your morale must be at least 35</li></ul>
                     Reset Timer: 5 minutes<br>
                     Duration: 45 seconds<br>
                     Morale Cost: 35<br>
@@ -881,52 +932,52 @@
                     <li>Repair Foremast: 30%</li>
                     <li>Repair Mainmast: 30%</li>
                     <li>Repair Mizzenmast: 30%</li>
-                    <li>Armor Damage Reduction, All: +2</li>
-                    <li>Mast Damage Reduction, All: +2</li></ul></div>
+                    <li>Armor Damage Reduction: +10%</li>
+                    <li>Mast Damage Reduction: +5%</li>
+					<li>Structure Damage Reduction: +5%</li></ul></div>
 
     <div class="discription 92" style="display: none;">
                     <h1>Economic Specialist</h1>
-                    Description: Passive skill. Enables the use of advances Freetrader Recipes and allows you to browse and purchase (depending on your reputation) auction listings in distant regions. Also provides a small ship combat stat bonus.<br>
-                    <ul><li>Passive Skill</li></ul>
+                    Description:<br>
+					Passive skill. Enables the use of advances Freetrader Recipes and allows you to browse and purchase (depending on your reputation) auction listings in distant regions. Also provides a small ship combat stat bonus.<br>
+                    Visit the Freetrader Recipe Trainer at the Company Office in your nation's capital to purchase these recipes.
+					<ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Structure Damage Resistance: +3%</li>
                     <li>Doubloon Bonus, NPC Defeat: +5%</li></ul></div>
 
     <div class="discription 93" style="display: none;">
-                    <h1>Reinforce Ally</h1>
-                    Description: Reinforce an allied ship, repairing their armor and sails for a small amount, and granting them a defensive buff. This does not stack with other Reinforce Ally skills.<br>
+                    <h1>Provision Ally</h1>
+                    Description:<br>
+					This skill launches a longboat, which will sails to your target and repair 25% of their armor and 20% of their sails. The longboat can be destroyed by the enemy. This skill consumes one Launch <br>
                     Requirements:
-                    <ul><li>Ally ship within 300y</li></ul>
-                    Reset Timer: 3 minutes<br>
+                    <ul><li>You must have 1 Launch</li>
+					<li>Your morale must be at least 30</li></ul>
+                    Reset Timer: 5 minutes<br>
                     Target: Ally <br>
-                    Duration: 15 seconds<br>
-                    Morale Cost: 20<br>
-                    Range: 300y<br>
+                    Duration: Instant<br>
+                    Morale Cost: 30<br>
+                    Cooldown category: Provisioning<br>
                     Target Effects:
-                    <ul><li>Repair Port Armor: 5%</li>
-                    <li>Repair Starboard Armor: 5%</li>
-                    <li>Repair Bow Armor: 5%</li>
-                    <li>Repair Stern Armor: 5%</li>
-                    <li>Repair Hull: 5%</li>
-                    <li>Repair Bowsprit: 5%</li>
-                    <li>Repair Foremast: 5%</li>
-                    <li>Repair Mainmast: 5%</li>
-                    <li>Repair Mizzenmast: 5%</li>
-                    <li>Damage Resistance: 5%</li></ul></div>
+                    <ul><li>Repair Armor: 25%</li>
+                    <li>Repair Sails: 20%</li></ul></div>
     
     <div class="discription 94" style="display: none;">
                     <h1>Expensive Ship</h1>
-                    Description: Passive skill. Increases your armor, structure,sails and your cargo capacity.<br>
+                    Description:<br>
+					Passive skill. Increases your armor, structure, sails and your cargo capacity.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
-                    <ul><li>Armor Integrity: +5%</li>
+                    <ul><li>Armor Integrity: +3%</li>
                     <li>Structural Integrity: +5%</li>
                     <li>Mast Integrity: +5%</li>
+					<li>Spotting Other Ships, Open Sea: +150</li>
                     <li>Cargo Capacity: +10%</li></ul></div>
     
     <div class="discription 95" style="display: none;">
                     <h1>Mercenaries</h1>
-                    Description: You turn over command to an experienced band of hired Mercenaries, who will lead the crew in more effective battle strategies. Your crew will be in a disarray for a while after .<br>
+                    Description:<br>
+					Buff: You turn over command to an experienced band of hired Mercenaries, who will lead the crew in more effective battle strategies. Your crew will be in a disarray for a while after .<br>
                     Reset Timer: 10 minutes<br>
                     Duration: 3 minutes<br>
                     Morale Cost: 30<br>
