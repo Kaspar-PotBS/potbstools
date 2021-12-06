@@ -151,6 +151,7 @@ img
 		    color: #B8B5B2;
 		    font-family: Trebuchet MS, Arial;
 		    font-size: 12px;
+			width: 400px;
 	        }
         
        .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a
