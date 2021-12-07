@@ -1046,10 +1046,11 @@ for(var i = 0; i < hashParams.length; i++){
 <script>
 $('#copybtn-tooltip2').click(function() {
 	var Part1 = window.location.pathname,
+	    Part2 = windows.location.hostname
 	CareerPart = 'test-urlbuild-urlhash-and-copy4.html',
 	hashPart = '#SkillCode=',
     CodePart = $('#SkillCode').val();
-					$('input[name=URL]').val(Part1 + hashPart + CodePart);
+					$('input[name=URL]').val(Part1 + Part2 + hashPart + CodePart);
 					var URLCODE = (Part1 + hashPart + CodePart);
 					var copyText = document.getElementById("URLField");
   copyText.select();
