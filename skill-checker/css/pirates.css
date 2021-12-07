@@ -54,7 +54,7 @@
 
               #SendNumber
               {
-               width: 280px; 
+               width: 314px; 
                padding: 5px;
                float:left;
                height: 30px;
@@ -80,7 +80,7 @@ line-height: 35px;
 			   
 			   #URLBox
               {
-               width: 530px; 
+               width: 564px; 
                padding: 5px;
                float:left;
                height: 30px;
@@ -88,7 +88,7 @@ line-height: 35px;
                background: url(../img/topBanner.png) no-repeat no-repeat;
 			   background-size: 100%;
                font: bold 18px/28px Trebuchet MS;
-               text-indent: 145px;  
+               text-indent: 152px;  
 line-height: 35px;	
     padding-right: 25px;
                }
@@ -214,7 +214,7 @@ img
     left: 320px;
     padding: 8px;
     padding-top: 8px;
-    max-width: 537px; 
+    max-width: 575px; 
 	width: -webkit-fill-available;
     border: 1px dotted gray;
     z-index: 55;
@@ -223,6 +223,7 @@ img
     font-family: Trebuchet MS, Arial;
     font-size: 12px;   
     display: block;
+	margin-left: 40px;
     }
     
        .discription
@@ -255,7 +256,7 @@ img
 	float: left; 
 	width: 600px; 
 
-	margin: 50px 0 0 56px;	
+	margin: 50px 0 0 15px;	
 	}
                  
            .charNaviItem{
