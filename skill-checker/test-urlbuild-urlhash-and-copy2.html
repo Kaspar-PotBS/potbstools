@@ -1044,7 +1044,7 @@ for(var i = 0; i < hashParams.length; i++){
 
 <script>
 $('#open').click(function() {
-	var URLPart   = window.location.origin,
+	var URLPart   = window.location.href,
     CodePart = $('#SkillCode').val();
 					$('input[name=URL]').val(URLPart + CodePart);
 					var newWindow = window.open(URLPart + CodePart, '_blank');
