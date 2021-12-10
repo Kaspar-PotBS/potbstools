@@ -36,7 +36,7 @@
     <div class="OneSkill">
         <h1>Cutthroat Skills:</h1>
         <div class="skillhead">
-            Brutality - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-1" value="0">
+            Brutality (RECOMMENDED) - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-1" value="0">
         </div>
 
         <div id="tab1">
@@ -274,7 +274,7 @@
                <!-- Skill 8:-->
     <div class="OneSkill">
         <div class="skillhead">
-            Survival - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-8" value="0">
+            Survival (RECOMMENDED) - Level: <input type="text" style="border:0; color:#f6931f; font-weight:bold;" id="skill-8" value="0">
         </div>
 
         <div id="tab8">
@@ -341,7 +341,8 @@
    <div id="Beschreibungen">
        <div class="discription 11" style="display: none;">
                     <h1>Sacrifice for Speed</h1>
-                    Description: Reduces maximum crew, increases speed, ship acceleration and turn rate.<br>
+                    Description:<br>
+					Toggle: Reduces maximum crew and morale, increases battle speed, ship acceleration and turn rate while active.<br>
                     Reset Timer: 1 minute<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -355,7 +356,8 @@
 
     <div class="discription 12" style="display: none;">
                     <h1>Target Weakness</h1>
-                    Description: Debuff (Primary). Decreases the target enemy's defense.<br>
+                    Description:<br>
+					Debuff (Primary). Decreases the target enemy's defense.<br>
                     Reset Timer: 3 minutes<br>
                     Target: Enemy<br>
                     Duration: 2 minutes<br>
@@ -363,11 +365,12 @@
                     Range: 500y<br>
                     Target Effects:
                     <ul><li>Defense, All: -6</li>
-                    <li>Armor Damage Reduction, All: -2</li></ul></div>
+                    <li>Armor Damage Resistance: -10%</li></ul></div>
 
     <div class="discription 13" style="display: none;">
                     <h1>Sacrifice for Damage</h1>
-                    Description: Reduces maximum crew, increases offensive stats.<br>
+                    Description:<br>
+					Toggle: Reduces maximum crew, increases offensive stats, damage, reload, accuracy, while active.<br>
                     Reset Timer: 1 minute<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -381,7 +384,8 @@
     
     <div class="discription 14" style="display: none;">
                     <h1>Cheat Death</h1>
-                    Description: Increases turning, defense and resistance for a short time.<br>
+                    Description:<br>
+					Buff: Increases turning, defense and resistance for a short time.<br>
                     Reset Timer: 5 minutes<br>
                     Duration: 30 seconds<br>
                     Morale Cost: 40<br>
@@ -392,7 +396,8 @@
     
     <div class="discription 15" style="display: none;">
                     <h1>Sacrifice for Victory</h1>
-                    Description: Reduces maximum crew, increases numerous ship parameters.<br>
+                    Description:<br>
+					Toggle: Reduces maximum crew, increases numerous ship parameters while active.<br>
                     Reset Timer: 1 minute<br>
                     Duration: Toggle<br>
                     Morale Cost: 30<br>
@@ -408,7 +413,8 @@
 
     <div class="discription 21" style="display: none;">
                     <h1>Vaporing</h1>
-                    Description: Debuff (Primary). Target suffers large penalties to crew performance.<br>
+                    Description:<br>
+					Debuff (Primary). Target suffers large penalties to crew performance.<br>
                     Reset Timer: 4 minutes<br>
                     Target: Enemey<br>
                     Duration: 30 seconds<br>
@@ -422,30 +428,35 @@
 
     <div class="discription 22" style="display: none;">
                     <h1>Cut Shroud</h1>
-                    Description: Attack Debuff (Primary). Reduces target speed.<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces target speed. You cannot stack two speed debuffs on a target. Requires dismantling shot.<br>
                     Requirements:
                     <ul><li>Dismantling Shot</li></ul>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 1 minute<br>
                     Morale Cost: 30	<br>
+					Range: 300y <br>
                     Target Effects:
-                    <ul><li>Maximum Ship Speed, Battle: -25%</li></ul></div>
+                    <ul><li>Maximum Ship Speed, Battle: -30%</li></ul></div>
 
     <div class="discription 23" style="display: none;">
                     <h1>Entangling Shot</h1>
-                    Description:Debuff (Primary). Reduces target grappling defense and sail resistance.<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces target grappling defense and sail resistance.<br>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 1 minute<br>
                     Morale Cost: 20	<br>
+					Range: 300y <br>
                     Target Effects:
                     <ul><li>Grappling Defense: -10</li>
                     <li>Mast Damage Resistance: -15%</li></ul></div>
     
     <div class="discription 24" style="display: none;">
                     <h1>Damage Rudder</h1>
-                    Description: Attack Debuff (Primary). Reduces targets turn rate.<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces targets turn rate. Must be facing the target's stern<br>
                     Requirements:
                     <ul><li>You must be facing the target's stern</li>
                     <li>Round Shot</li></ul>
@@ -453,43 +464,47 @@
                     Target: Enemey<br>
                     Duration: 1 minute<br>
                     Morale Cost: 30<br>
+					Range: 250y <br>
                     Target Effects:
                     <ul><li>Turn Rate, Battle: -50%</li></ul></div>
     
     <div class="discription 25" style="display: none;">
                     <h1>Cripple Enemy</h1>
-                    Description: Debuff (Secondary). Reduces the target's stats.<br>
+                    Description:<br>
+					Attack Debuff (Secondary). Reduces the target's stats. Stacks with other debuffs.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
                     Duration: 1m 15s<br>
                     Morale Cost: 10<br>
+					Range: 300y<br>
                     Target Effects:
                     <ul><li>Maximum Ship Speed, Battle: -10%</li>
                     <li>Defense, All: -2</li>
-                    <li>Armor Damage Reduction, All: -3</li>
                     <li>Accuracy, All: -2</li>
                     <li>Turn Rate, Battle: -10%</li>
                     <li>Ship Acceleration: -10%</li>
-                    <li>Armor Damage Resistance: -15%</li>
-                    <li>Structure Damage Resistance: -10%</li></ul></div>
+                    <li>Armor Damage Resistance: -25%</li>
+                    <li>Structure Damage Resistance: -15%</li></ul></div>
 
 
     <div class="discription 31" style="display: none;">
                     <h1>Death's Embrace</h1>
-                    Description: Debuff (Primary). Decreases target's resistance, but also decreases your resistance.<br>
+                    Description:<br>
+					Debuff (Primary). Decreases target's resistance, but also decreases your resistance.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
-                    Duration: 2 minutes<br>
+                    Duration: Instant<br>
                     Morale Cost: 30<br>
                     Range: 500y<br>
                     Self Effects:
-                    <ul><li>Damage Resistance, All: -3%</li></ul>
+                    <ul><li>Damage Resistance: -3%</li></ul>
                     Target Effects:
-                    <ul><li>Damage Resistance, All: -12%</li></ul></div>
+                    <ul><li>Damage Resistance: -12%</li></ul></div>
 
     <div class="discription 32" style="display: none;">
                     <h1>Dump Guns</h1>
-                    Description: Increases speed at the cost of guns. Also prevents you from using any single or combined gun repair for 5 minutes.<br>
+                    Description:<br>
+					Dump guns overboard to increase speed for 30s. Also prevents you from using any single or combined gun repair for 5 minutes.<br>
                     Requirements:
                     <ul><li>Your ship's guns must be at least 20%</li></ul>
                     Reset Timer: 5 minutes<br>
@@ -498,11 +513,13 @@
                     Self Effects:
                     <ul><li>Maximum Ship Speed, Battle: +15%</li>
                     <li>Ship Acceleration: +25%</li>
-                    <li>Damage Batteries: 20%</li></ul></div>
+                    <li>Damage Batteries: 20%</li>
+					<li>Prevented from using gun repairs for 5 minutes</li></ul></div>
 
     <div class="discription 33" style="display: none;">
                     <h1>Desperation Fire</h1>
-                    Description: Attack. Increased damage shot that also damages your own armor.<br>
+                    Description:<br>
+					Attack. Increased damage shot that also damages your own armor.<br>
                     Reset Timer: 1 minute<br>
                     Target: Enemy<br>
                     Morale Cost: 20<br>
@@ -515,7 +532,8 @@
     
     <div class="discription 34" style="display: none;">
                     <h1>Rum Ration</h1>
-                    Description: Increases reload, turn rate, ship acceleration and maximum moral. Consumes 5 units of Keg of Rum, Rough.<br>
+                    Description:<br>
+					Buff: Increases reload, turn rate, ship acceleration and maximum moral. Consumes 5 units of Keg of Rum, Rough.<br>
                     Requirements:
                     <ul><li>5 units of Keg of Rum, Rough</li></ul>
                     Reset Timer: 5 minutes<br>
@@ -529,19 +547,22 @@
     
     <div class="discription 35" style="display: none;">
                     <h1>Deter Pursuit</h1>
-                    Description: Debuff (Primary). Reduces the speed of the target enemy.<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces the speed of the target enemy. You cannot stack two speed debuffs on a target. Requires dismantling shot.<br>
                     Requirements:
                     <ul><li>Dismantling Shot</li></ul>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
                     Duration: 40 seconds<br>
                     Morale Cost: 30	<br>
+					Range: 300y<br>
                     Target Effects:
                     <ul><li>Maximum Ship Speed, Battle: -50%</li></ul></div>
 
     <div class="discription 41" style="display: none;">
                     <h1>Cut Lines</h1>
-                    Description: Reduces your vulnerability to grappling attacks and increases your defense.<br>
+                    Description:<br>
+					Buff: Reduces your vulnerability to grappling attacks and increases your defense.<br>
                     Reset Timer: 3 minutes<br>
                     Duration: 1m 10s<br>
                     Morale Cost: 20<br>
@@ -551,7 +572,8 @@
 
     <div class="discription 42" style="display: none;">
                     <h1>Flog Gunners</h1>
-                    Description: Increases your reload speed and your damage.<br>
+                    Description:<br>
+					Toggle: Increases your reload speed and your damage while active.<br>
                     Reset Timer: 30 seconds<br>
                     Duration: Toggle<br>
                     Morale Cost: 50<br>
@@ -562,7 +584,8 @@
 
     <div class="discription 43" style="display: none;">
                     <h1>Wolf Pack Hunters</h1>
-                    Description: Improves a wide range of ship parameters. Multiple Wolf Packs stack the effect.<br>
+                    Description:<br>
+					Group Buff: Improves a wide range of ship parameters for ships in your group. Multiple Wolf Packs stack the effect.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Group<br>
                     Duration: 5 minutes<br>
@@ -575,7 +598,8 @@
     
     <div class="discription 44" style="display: none;">
                     <h1>Increased Damage</h1>
-                    Description: Passive skill. Slightly increases damage and damage resistance.<br>
+                    Description:<br>
+					Passive skill. Slightly increases damage and damage resistance.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Damage: +5%</li>
@@ -583,7 +607,8 @@
     
     <div class="discription 45" style="display: none;">
                     <h1>Work the Crew</h1>
-                    Description: Passive skill. Increases ship armor strength, structure and open sea speed.<br>
+                    Description:<br>
+					Passive skill. Increases ship armor strength, structure and open sea speed.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Armor Integrity: +5%</li>
@@ -592,7 +617,8 @@
 
     <div class="discription 51" style="display: none;">
                     <h1>All or Nothing Shot</h1>
-                    Description: Attack. Increased damage shot that cause you to suffer a reload penalty for a short time.<br>
+                    Description:<br>
+					Attack. Increased damage shot that cause you to suffer a reload penalty for a short time.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
                     Duration: 15 seconds<br>
@@ -603,7 +629,8 @@
 
     <div class="discription 52" style="display: none;">
                     <h1>Rake</h1>
-                    Description:Attack. Rakes the deck of the target, doing increased damage to the crew. If this attack hits the target's bowor stern it will inflict a penalty to the target's crew recovery rate and the target will be protected from additional crew damage skills for the duration.<br>
+                    Description:<br>
+					Attack. Rakes the deck of the target, doing increased damage to the crew. If this attack hits the target's bow or stern it will inflict a penalty to the target's crew recovery rate and the target will be protected from additional crew damage skills for the duration.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
                     Duration: 3 seconds<br>
@@ -616,7 +643,8 @@
 
     <div class="discription 53" style="display: none;">
                     <h1>Overloaded Shot</h1>
-                    Description: Attack. Increased damage shot that reduces your accuracy for a short time afterwards.<br>
+                    Description:<br>
+					Attack. Increased damage shot that reduces your accuracy for a short time afterwards.<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
                     Duration: 30 seconds<br>
@@ -627,7 +655,8 @@
     
     <div class="discription 54" style="display: none;">
                     <h1>Shred Armor</h1>
-                    Description: Attack. Ignores a portion of the target's damage reduction and buffing the accuracy for the shot.<br>
+                    Description:<br>
+					Attack. Ignores 70% of the target's damage reduction and buffing the accuracy for the shot.<br>
                     Requirements:
                     <ul><li>Round Shot</li></ul>
                     Reset Timer: 5 minutes<br>
@@ -639,7 +668,8 @@
     
     <div class="discription 55" style="display: none;">
                     <h1>Vital Strike</h1>
-                    Description: Attack. Fire a more accurate and damaging shot, which also inflicts additional structure damage over 3 seconds to the target.<br>
+                    Description:<br>
+					Attack. Fire a more accurate and damaging shot, which also inflicts additional structure damage over 3 seconds to the target.<br>
                     Requirements:
                     <ul><li>Round Shot</li></ul>
                     Reset Timer: 2 minutes<br>
@@ -654,11 +684,13 @@
 
     <div class="discription 61" style="display: none;">
                     <h1>Decimate</h1>
-                    Description: Attack Debuff (Primary). Reduces enemy's resistance to being grappled, accuracy and crew recovery rate.<br>
+                    Description:<br>
+					Attack Debuff (Primary). Reduces enemy's resistance to being grappled, accuracy and crew recovery rate.<br>
                     Reset Timer: 2 minutes<br>
                     Target: Enemy<br>
                     Duration: 1 minute<br>
                     Morale Cost: 30<br>
+					Range: 500y<br>
                     Target Effects:
                     <ul><li>Grappling Defense: -25</li>
                     <li>Crew Recovery Rate: -25%</li>
@@ -666,7 +698,8 @@
 
     <div class="discription 62" style="display: none;">
                     <h1>Bloodthirst</h1>
-                    Description: Passive skill. Increases the effectiveness of your boarding party and the overall strength of your crew.<br>
+                    Description:<br>
+					Passive skill. Increases the effectiveness of your boarding party and the overall strength of your crew.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Boarding Party Level: +1</li>
@@ -675,7 +708,8 @@
 
     <div class="discription 63" style="display: none;">
                     <h1>Tack Upwind</h1>
-                    Description: Toggle. Allows faster travel upwind.<br>
+                    Description:<br>
+					Toggle. Allows faster travel upwind.<br>
                     Reset Timer: 5 seconds<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -688,7 +722,8 @@
     
     <div class="discription 64" style="display: none;">
                     <h1>Bosun's Whip</h1>
-                    Description: Removes negative effects of crew loss for a moderate time.<br>
+                    Description:<br>
+					Removes negative effects of crew loss for a short time.<br>
                     Requirements:
                     <ul><li>75% crew or less</li></ul>
                     Reset Timer: 5 minutes<br>
@@ -699,7 +734,8 @@
     
     <div class="discription 65" style="display: none;">
                     <h1>Fury</h1>
-                    Description: Passive skill. Increases your maximum morale and your morale recovery rate.<br>
+                    Description:<br>
+					Passive skill. Increases your maximum morale and your morale recovery rate.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Maximum Morale: +10</li>
@@ -707,7 +743,8 @@
 
     <div class="discription 71" style="display: none;">
                     <h1>Agile Rigging</h1>
-                    Description: Passive skill. Increases your maneuverability and defense.<br>
+                    Description:<br>
+					Passive skill. Increases your maneuverability and defense.<br>
                     Requirements:
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
@@ -716,7 +753,8 @@
 
     <div class="discription 72" style="display: none;">
                     <h1>Devil Take the Hindmost</h1>
-                    Description: Debuff (Secondary). Signal a target. Visibly marks the target and lowers its defense by 5 and accuracy by 2.<br>
+                    Description:<br>
+					Debuff (Secondary). Signal a target. Visibly marks the target and lowers its defense by 5 and accuracy by 2.<br>
                     Reset Timer: 1 minute<br>
                     Target: Enemy<br>
                     Duration: 5 minutes<br>
@@ -727,7 +765,8 @@
 
     <div class="discription 73" style="display: none;">
                     <h1>Before the Wind</h1>
-                    Description: Increases your speed, extra improvement while sailing downwind.<br>
+                    Description:<br>
+					Toggle: While active, increases your battle speed, extra improvement while sailing downwind.<br>
                     Reset Timer: 3 seconds<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -740,7 +779,8 @@
     
     <div class="discription 74" style="display: none;">
                     <h1>Stealth</h1>
-                    Description: Decrease the range at which you are detected in the Open Sea.<br>
+                    Description:<br>
+					Buff: Decrease the range at which you are detected in the Open Sea.<br>
                     Reset Timer: 5 minutes<br>
                     Duration: 5 minutes<br>
                     Morale Cost: 20<br>
@@ -750,7 +790,8 @@
     
     <div class="discription 75" style="display: none;">
                     <h1>Black Market</h1>
-                    Description: Passive Skill. Reduces the taxes you pay on production in enemy ports, also increases your Open Sea travel speed.<br>
+                    Description:<br>
+					Passive Skill. Reduces the taxes you pay on production in enemy ports, also increases your Open Sea travel speed.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Tax Rate Adjustment: -60%</li>
@@ -758,7 +799,8 @@
 
     <div class="discription 81" style="display: none;">
                     <h1>Jury-Rig</h1>
-                    Description: Quickly repairs some sail damage.<br>
+                    Description:<br>
+					Quickly repairs some sail damage.<br>
                     Requirements:
                     <ul><li>Damaged Sails</li></ul>
                     Reset Timer: 5 minutes<br>
@@ -772,7 +814,8 @@
 
     <div class="discription 82" style="display: none;">
                     <h1>Defense</h1>
-                    Description: Toggle. Increases defense, bow damage reduction and damage resistance.<br>
+                    Description:<br>
+					Toggle. Increases defense, bow damage reduction and damage resistance.<br>
                     Reset Timer: 3 seconds<br>
                     Duration: Toggle<br>
                     Morale Cost: 20<br>
@@ -784,10 +827,11 @@
 
     <div class="discription 83" style="display: none;">
                     <h1>Plug Leaks</h1>
-                    Description: Quickly repairs some armor damage and buffing armor damage reduction for the duration of the repair.<br>
+                    Description:<br>
+					Quickly repairs some armor damage and buffing armor damage reduction for the duration of the repair.<br>
                     Requirements:
                     <ul><li>Damaged Armor</li></ul>
-                    Reset Timer: 5 minutes<br>
+                    Reset Timer: 7 minutes<br>
                     Duration: 30 seconds<br>
                     Morale Cost: 10<br>
                     Self Effects:
@@ -795,14 +839,15 @@
                     <li>Repair Starboard Armor: 30%</li>
                     <li>Repair Bow Armor: 40%</li>
                     <li>Repair Stern Armor: 25%</li>
-                    <li>Armor Damage Reduction, All: +6</li></ul></div>
+                    <li>Armor Damage Resistance: 25%</li></ul></div>
     
     <div class="discription 84" style="display: none;">
                     <h1>Hit and Run</h1>
-                    Description: Attack. Increases your speed and maneuverability after firing. The effect improves with each shot that hits in a single broadside (up to maximum +15% speed and acceleration).<br>
+                    Description:<br>
+					Attack. Increases your speed and maneuverability after firing. The effect improves with each shot that hits in a single broadside (up to maximum +15% speed and acceleration).<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
-                    Duration: 1 minute<br>
+                    Duration: Instant<br>
                     Morale Cost: 20<br>
                     Range: 450y<br>
                     <ul><li>First Hit Bonus: 3</li>
@@ -814,15 +859,18 @@
     
     <div class="discription 85" style="display: none;">
                     <h1>Too Mean to Die</h1>
-                    Description: Prevents all damage for a short time. Does not prevent from debuffs.<br>
-                    Reset Timer: 30 minutes<br>
+                    Description:<br>
+					Buff: Prevents all damage for a short time by settings your damage resistance to 50%. Does not prevent from debuffs.<br>
+                    Reset Timer: 10 minutes<br>
                     Duration: 30 seconds<br>
-                    Morale Cost: 75<br>
-                    Cooldown Category: Perfect Defense</div>
+                    Morale Cost: 30<br>
+                    Cooldown Category: Perfect Defense<br>
+					Sets your damage resistance to 50%</div>
 
     <div class="discription 90" style="display: none;">
                     <h1>Career: Cutthroat</h1>
-                    Description: As a member of the Cutthroat career, you are faster and more flexible in ship combat. However, pirates have no Price Court and receive only the doubloons they can loot from survivors of defeated ships.<br>
+                    Description:<br>
+					As a member of the Cutthroat career, you are faster and more flexible in ship combat. However, pirates have no Price Court and receive only the doubloons they can loot from survivors of defeated ships.<br>
                     <ul><li>Passive Skill</li></ul>
                     Self Effects:
                     <ul><li>Doubloon Bonus, NPC Defeat: -55%</li>
@@ -832,11 +880,13 @@
                     <li>Reload Rate: +1%</li>
                     <li>Maximum Ship Speed Battle: +4%</li>
                     <li>Close-Hauled Speed, Battle +3%</li>
-                    <li>Bonus Loot Chance: +2%</li></ul></div>
+                    <li>Bonus Loot Chance: +2%</li>
+					<li>Ship Defeat XP (Missions): -50%</li></ul></div>
 
     <div class="discription 91" style="display: none;">
                     <h1>Take Command of Ship</h1>
-                    Description: Take Command of the target ship and send your current ship back to the nearest pirate harbor.<br>
+                    Description:<br>
+					Take Command of the target ship and send your current ship back to the nearest pirate harbor. This skill can be used every 2 hours.<br>
                     Requirements:
                     <ul><li>Derelict and no default or mission ship</li></ul>
                     Reset Timer: 120 minutes<br>
@@ -846,7 +896,8 @@
 
     <div class="discription 92" style="display: none;">
                     <h1>Run Them Down</h1>
-                    Description: Debuff (Primary). Reduces the target's Open Sea speed and increases your Speed on the Open Sea (1 minute). Also applies an acceleration debuff (3 minutes) that carries over into the battle.<br>
+                    Description:<br>
+					Debuff (Primary). Reduces the target's Open Sea speed and increases your Speed on the Open Sea (1 minute). Also applies an acceleration debuff (3 minutes) that carries over into the battle. 30 minutes reset timer.<br>
                     Requirements:
                     <ul><li>Target is PvP-Flagged, a NPC or in a red zone.</li>
                     <li>You cannot be in a default ship.</li></ul>
@@ -855,7 +906,7 @@
                     Duration: 1 minute OS / 3 minutes Battle<br>
                     Morale Cost: 80<br>
                     Cooldown Category: Open Sea Debuff<br>
-                    Range: 24mi<br>
+                    Range: 50y<br>
                     Self Effects:
                     <ul><li>Maximum Ship Speed, Open Sea: +10%</li></ul>
                     Target Effects:
@@ -864,7 +915,8 @@
 
     <div class="discription 93" style="display: none;">
                     <h1>To the Last Man</h1>
-                    Description: Quickly restores a moderate amount of morale and crew.<br>
+                    Description:<br>
+					Quickly restores a moderate amount of morale and crew.<br>
                     Reset Timer: 10 minutes<br>
                     Duration: 15 seconds<br>
                     Morale Cost: 0<br>
@@ -874,7 +926,8 @@
     
     <div class="discription 94" style="display: none;">
                     <h1>Drink and the Devil</h1>
-                    Description: Increases turn rate, reload rate, resistance and damage for a moderate duration.<br>
+                    Description:<br>
+					Buff: Increases turn rate, reload rate, resistance and damage for a moderate duration.<br>
                     Reset Timer: 5 minutes<br>
                     Duration: 2 minutes<br>
                     Morale Cost: 30<br>
@@ -886,7 +939,8 @@
     
     <div class="discription 95" style="display: none;">
                     <h1>Slaughter Their Crew</h1>
-                    Description:Attack Debuff (Secondary). Deals extra crew damage. Reduces target acceleration, turn rate, reload rate and damage. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -12%).<br>
+                    Description:<br>
+					Attack Debuff (Secondary). Deals extra crew damage. Reduces target acceleration, turn rate, reload rate and damage. The reduction gets stronger with each additional hit in the broadside (up to a maximum of -12%).<br>
                     Reset Timer: 5 minutes<br>
                     Target: Enemy<br>
                     Duration: 40 seconds Target effects<br>
